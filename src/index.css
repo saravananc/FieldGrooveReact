@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav-link
+{
+  color: #13254B !important;
+  margin:0 15px 0 15px ;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+
+.nav-link:hover {
+  color: red !important;
+  background-color:white !important;
+  transition: background-color 0.3s ease;
+}
+
+.lbutton {
+  background-color: #2d59b0 !important;
+  border: none;
+  color: white !important;
+  padding: 7px 24px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 2px !important;
+  cursor: pointer;
+  border-radius: 36px;
+  font-weight: bold;
+}
+  .lbutton:hover {
+      background-color: #E36156 !important;
+      color: white !important;
+  }
+
+  .box {
+    background-color: #162647;
+    border-radius: 0px;
+    position: relative;
+}
+
+.box.arrow-right:after {
+        content: " ";
+        position: absolute;
+        right: -12px;
+        top: 25px;
+        border-top: 11px solid transparent;
+        border-right: none;
+        border-left: 11px solid #162647;
+        border-bottom: 11px solid transparent;
+    }
+
+
+.para {
+  line-height: 11px !important;
+}
+.hoverline {
+  color: #E36156 !important;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+  .hoverline:hover {
+
+      text-decoration: underline;
+  }
+
+
+  .nav-item1:not(:last-child)::after {
+    content: "|";
+    font-size: 13px;
+    color: darkgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.nav-link {
+    display: inline-block !important;
+}
+
+
+.nav1 {
+  color: #13254B !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+  .nav1:hover {
+      color: red !important;
+      background-color: white !important;
+      transition: background-color 0.3s ease;
+  }
+
+  .margin {
+    margin-top: 100px;
+}
+.fsize {
+  font-size: 40px;
+}
